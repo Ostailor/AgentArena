@@ -1,0 +1,29 @@
+# Dependencies and environments
+node_modules/
+.venv/
+__pycache__/
+
+# Build and test artifacts
+.next/
+.pytest_cache/
+test-results/
+playwright-report/
+coverage/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Internal documentation and milestone plans
+/docs/
+
+# Local AI agent instructions
+/AGENTS.md
+/CLAUDE.md
+
+# Local agent configuration
+.openrig/
+.claude/
+.mcp.json
